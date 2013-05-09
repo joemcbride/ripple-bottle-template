@@ -37,11 +37,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FUBUPROJECTSHORTNAMERegistry.cs" />
-  </ItemGroup>
-  <ItemGroup>
-	<Compile Include="..\CommonAssemblyInfo.cs">
+    <Compile Include="..\CommonAssemblyInfo.cs">
       <Link>Properties\CommonAssemblyInfo.cs</Link>
     </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ripple.dependencies.config" />
